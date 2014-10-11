@@ -1,5 +1,5 @@
 package serwis;
-
+//asdfasd
 public class klient 
 {
 private String imie;
