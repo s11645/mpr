@@ -49,10 +49,16 @@ public class dummyKlientRepozytorium implements IKlientRepozytorium
 		return db.klienci;
 	}
 
-	/*@Override
+	@Override
+	public List<klient> withzamowienie(int zamid) 
+	{
+		return null;
+	}
+
+	@Override
 	public List<klient> withzamowienie(zamowienie zam)
 	{
 		return withzamowienie(zam.getId());
-	}*/
+	}
 
 }

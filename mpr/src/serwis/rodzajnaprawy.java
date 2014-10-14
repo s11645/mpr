@@ -1,10 +1,13 @@
 package serwis;
 
+import java.util.*;
+
 public class rodzajnaprawy extends encja
 {
 	private String nazwa;
 	private String czasnaprawy;
 	private float koszt;
+	private List<sprzet> sprzet;
 
 	public String getNazwa()
 	{
@@ -34,6 +37,16 @@ public class rodzajnaprawy extends encja
 	public void setKoszt(float koszt)
 	{
 		this.koszt = koszt;
+	}
+
+	public List<sprzet> getSprzet() 
+	{
+		return sprzet;
+	}
+
+	public void setSprzet(List<sprzet> sprzet) 
+	{
+		this.sprzet = sprzet;
 	}
 
 }

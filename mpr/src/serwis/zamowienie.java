@@ -45,4 +45,14 @@ public class zamowienie extends encja
 		this.datawykonania = datawykonania;
 	}
 
+	public List<sprzet> getSprzet() 
+	{
+		return sprzet;
+	}
+
+	public void setSprzet(List<sprzet> sprzet) 
+	{
+		this.sprzet = sprzet;
+	}
+
 }

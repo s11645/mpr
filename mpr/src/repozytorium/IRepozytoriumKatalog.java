@@ -2,7 +2,7 @@ package repozytorium;
 
 import serwis.*;
 
-public interface IRepozytoriumKatolog
+public interface IRepozytoriumKatalog
 {
 	public IKlientRepozytorium getKlient();
 	public ISprzetRepozytorium getSprzet();

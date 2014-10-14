@@ -7,4 +7,5 @@ import serwis.*;
 public interface IKlientRepozytorium extends IRepozytorium<klient>
 {
 	public List<klient> withzamowienie(zamowienie zam);
+	public List<klient> withzamowienie(int zamid);
 }

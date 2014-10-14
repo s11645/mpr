@@ -44,4 +44,14 @@ public void setKontobankowe(String kontobankowe)
 	this.kontobankowe = kontobankowe;
 }
 
+public List<zamowienie> getZamowienia() 
+{
+	return zamowienia;
+}
+
+public void setZamowienia(List<zamowienie> zamowienia) 
+{
+	this.zamowienia = zamowienia;
+}
+
 }

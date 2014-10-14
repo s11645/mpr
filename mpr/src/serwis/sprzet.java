@@ -45,4 +45,14 @@ public class sprzet extends encja
 		this.typ = typ;
 	}
 
+	public List<rodzajnaprawy> getNaprawy() 
+	{
+		return naprawy;
+	}
+
+	public void setNaprawy(List<rodzajnaprawy> naprawy) 
+	{
+		this.naprawy = naprawy;
+	}
+
 }

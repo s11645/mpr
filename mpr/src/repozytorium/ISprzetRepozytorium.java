@@ -8,5 +8,5 @@ public interface ISprzetRepozytorium extends IRepozytorium<sprzet>
 {
 	public List<sprzet> withrodzajnaprawy(rodzajnaprawy rn);
 	public List<sprzet> withrodzajnaprawy(String nazwa);
-	public List<sprzet> withrodzajnaprawy(int koszt);
+	public List<sprzet> withrodzajnaprawy(float koszt);
 }
