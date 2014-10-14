@@ -1,50 +1,48 @@
 package serwis;
 
-public class sprzet 
+import java.util.*;
+
+public class sprzet extends encja
 {
 	private String producent;
 	private String model;
-	private String usterka;
 	private String typ;
-	
-	public String getProducent() 
+
+	private List<rodzajnaprawy> naprawy;
+
+	public sprzet()
+	{
+		naprawy = new ArrayList<rodzajnaprawy>();
+	}
+
+	public String getProducent()
 	{
 		return producent;
 	}
-	
-	public void setProducent(String producent) 
+
+	public void setProducent(String producent)
 	{
 		this.producent = producent;
 	}
-	
-	public String getModel() 
+
+	public String getModel()
 	{
 		return model;
 	}
-	
-	public void setModel(String model) 
+
+	public void setModel(String model)
 	{
 		this.model = model;
 	}
-	
-	public String getUsterka()
-	{
-		return usterka;
-	}
-	
-	public void setUsterka(String usterka) 
-	{
-		this.usterka = usterka;
-	}
-	
-	public String getTyp() 
+
+	public String getTyp()
 	{
 		return typ;
 	}
-	
-	public void setTyp(String typ) 
+
+	public void setTyp(String typ)
 	{
 		this.typ = typ;
 	}
-	
+
 }
